@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Registry</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"> -->
+	<link rel="shortcut icon" type="image/jpg" href="img/infinity.jpg">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;600&amp;display=swap" media="all">
+
+    <link rel="stylesheet" href="css/style.css" media="all" type="text/css">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- <?php if ( isset($_GET['success']) && $_GET['success'] == 1 )
+  {
+       // treat the succes case ex:
+       echo '<script>alert("Thank you for sponsoring this item")</script>';
+  }
+  ?> -->
+    <div class="main">
+		<div class="header">
+			<div class="mhead">
+				<img src="https://media.istockphoto.com/photos/peace-symbols-form-infinity-symbol-together-picture-id1333158148?k=20&m=1333158148&s=612x612&w=0&h=ksF1QF1iJLy8MVNjFNsIFJNbUpBA6NfhK8upAo04Xto=" id="fflower" class="img-fluid fflower" style="height: 4em;" alt="">
+				<h1 class="heading" style="text-align: center;">XO MAGIC</h1>
+			</div>
+			<!-- nav -->
+				<div class="nav_w3ls pt-4 pb-3 text-center top-header">
+					<nav>
+						<label for="drop" class="toggle">Menu</label>
+						<input type="checkbox" id="drop" />
+						<ul class="menu">
+							<li><a href="index.html" class="active">Home</a></li>
+							<!-- <li><a href="Our_Story.html">Our Story</a></li> -->
+							<li><a href="schedule.html">Schedule</a></li>
+							<li><a href="wedding_party.html">Wedding Party!!</a></li>
+							<li><a href="gift_registry.html">Gift Registry</a></li>
+							<li><a href="moments.html">Galleries</a></li>
+							<li><a href="Q_A.html">Q & A</a></li>
+						</ul>
+					</nav>
+				</div>
+		</div>
+
+        <div class="container" style="margin-bottom: 5%; padding-top: 2%; font-weight: bolder;">
+            <div class="row">
+                <div class="col-12" style="text-align: center;">
+                    <img src="img/LAD_5191.jpg" class="rounded-circle" style="height: auto; width: 200px;" alt="">
+
+                </div>
+                <div class="col-12 gmsg" style="text-align: center;">
+                    <p>Your presence and well wishes serve as a most precious gift to us.
+                        We would at the same time greatly appreciate other gift items and have put together our wish list which you can select from.
+                        Thank you so much for all you have done. We are immensely grateful.
+                    </p>
+                    
+                    <p>We would also appreciate all cash gifts. Please click below to view the account details.</p>
+                   
+                    <button class="btn btn-dark cmodal" type="button" data-bs-toggle="modal" data-bs-target="#account">Click for Account Details</button>
+                  
+                    <div class="modal fade" id="account">
+                      <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                    
+                          <div class="modal-header">
+                            <h4 class="modal-title">Account Details</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                          </div>
+                    
+                          <div class="modal-body">
+                            <p>Account name: Olaoluwa & Christiana</p>
+                            <p>Account number: 6501155465</p>
+                            <p>Bank name: Providus Bank</p>
+                          </div>
+                    
+                        </div>
+                      </div>
+                    
+                    
+                </div>
+                <div class="ps">
+                  <span>Clicking the "Please Select" button will lead you to a form. This will inform the couple the gift you have selected to sponsor.</span> <br>
+                  <span>Please endeavour to bring the selected gift to the wedding venue. If for some reason that is not possible then feel free to hand over to the couple anytime after the wedding date</span>
+                
+                </div>
+                <div class="row" style="margin-top: 4%;">
+                  <div class="col-6 col-lg-3">
+                    <div class="card" >
+                      <img class="card-img-top" src="data:image/jpeg;base64,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" alt="samsung double door fridge">
+                      <div class="card-body">
+                        <h5 class="card-title">Samsung Double Door Fridge</h5>
+                        <h4><span>&#8358;</span>850,000<sup>$1,492</sup></h4>
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#fridgeModal" role="button">Please Select</a>
+                        <div class="modal fade" id="fridgeModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_fridge">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFf5TU-Vx-Zo45iHF2HyC44SLcrVtHaik4sg&usqp=CAU" alt="le creuset">
+                      <div class="card-body">
+                        <h5 class="card-title">Le Creuset Round Dutch</h5>
+                        <h4><span>&#8358;</span>70,000<sup>$125</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#ovenModal" role="button">Please Select</a>
+                        <div class="modal fade" id="ovenModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_oven">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Air conditioner">
+                      <div class="card-body">
+                        <h5 class="card-title">LG Air conditioners</h5>
+                        <h4><span>&#8358;</span>302,000<sup>$530</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#acModal" role="button">Please Select</a>
+                        <div class="modal fade" id="acModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_ac">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://guardian.ng/wp-content/uploads/2022/03/Artworks-Photo-Virtosu-Art-Gallery-e1647433951776-1424x802.jpg" alt="Artworks">
+                      <div class="card-body">
+                        <h5 class="card-title">Artworks</h5>
+                        <h4>Variable cost</h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#artModal" role="button">Please Select</a>
+                        <div class="modal fade" id="artModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_art">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://www.sencor.com/Sencor/media/content/Products/SLE-55US800TCSB-diagonal.jpg" alt="Smart TV">
+                      <div class="card-body">
+                        <h5 class="card-title">Smart TV</h5>
+                        <h4><span>&#8358;</span>450,000<sup>$790</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#tvModal" role="button">Please Select</a>
+                        <div class="modal fade" id="tvModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_tv">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://www.u-buy.com.ng/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFLR2lSWVhZTVMuX0FDX1NMMTUwMF8uanBn.jpg" alt="microwave">
+                      <div class="card-body">
+                        <h5 class="card-title">Microwave 300 height</h5>
+                        <h4><span>&#8358;</span>125,000<sup>$220</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#microModal" role="button">Please Select</a>
+                        <div class="modal fade" id="microModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_micro">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://image.made-in-china.com/2f0j00EsPRGZaJYuqe/Wireless-Bluetooth-Stereo-Surround-Sound-Soundbar-System-Professional-5-1-CH-Home-Theater.jpg" alt="Wireless sound system">
+                      <div class="card-body">
+                        <h5 class="card-title">Wireless Sound System</h5>
+                        <h4><span>&#8358;</span>140,000<sup>$246</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#soundModal" role="button">Please Select</a>
+                        <div class="modal fade" id="soundModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_sound">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://m.media-amazon.com/images/I/81N8YuMZ+2L._AC_SL1500_.jpg" alt="his and hers bags">
+                      <div class="card-body">
+                        <h5 class="card-title">His & Hers Bags - Travel, Office, Laptop</h5>
+                        <h4><span>&#8358;</span>55,000<sup>$97</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#bagModal" role="button">Please Select</a>
+                        <div class="modal fade" id="bagModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_bag">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://indesituk.vtexassets.com/arquivos/ids/158780-800-800?width=800&height=800&aspect=true" alt="dishwasher">
+                      <div class="card-body">
+                        <h5 class="card-title">Dishwasher</h5>
+                        <h4><span>&#8358;</span>265,000<sup>$465</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#dishModal" role="button">Please Select</a>
+                        <div class="modal fade" id="dishModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_dish">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/66/457541/1.jpg?1243" alt="rechargeable fan">
+                      <div class="card-body">
+                        <h5 class="card-title">Rechargeable Fans</h5>
+                        <h4><span>&#8358;</span>58,000<sup>$102</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#fanModal" role="button">Please Select</a>
+                        <div class="modal fade" id="fanModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_fan">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Caraway Cookware Set/Titanium">
+                      <div class="card-body">
+                        <h5 class="card-title">Caraway Cookware Set/Titanium</h5>
+                        <h4><span>&#8358;</span>480,000<sup>$842</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#cookModal" role="button">Please Select</a>
+                        <div class="modal fade" id="cookModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_cook">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://media.istockphoto.com/vectors/elegant-gift-card-or-gift-voucher-template-vector-id607603404" alt="Gift Vouchers">
+                      <div class="card-body">
+                        <h5 class="card-title">Gift Vouchers</h5>
+                        <h4>Variable cost</h4>
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#voucherModal" role="button">Please Select</a>
+                        <div class="modal fade" id="voucherModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_voucher">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://www.u-buy.com.ng/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvODFsaVhCZWFKMUwuX0FDX1NMMTUwMF8uanBn.jpg" alt="Ninja Professional Chopper">
+                      <div class="card-body">
+                        <h5 class="card-title">Ninja Professional Chopper</h5>
+                        <h4><span>&#8358;</span>35,000<sup>$62</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#ninjaModal" role="button">Please Select</a>
+                        <div class="modal fade" id="ninjaModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_ninja">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://www.finder.com.au/niche-builder/61b1646e02bb5.png" alt="Peloton Bike">
+                      <div class="card-body">
+                        <h5 class="card-title">Peloton Bike</h5>
+                        <h4><span>&#8358;</span>170,000<sup>$299</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#bikeModal" role="button">Please Select</a>
+                        <div class="modal fade" id="bikeModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_bike">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://www.u-buy.com.ng/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjFNT0h2dDMrdVMuX0FDX1NMMTUwMF8uanBn.jpg" alt="Stand Mixer">
+                      <div class="card-body">
+                        <h5 class="card-title">Stand Mixer</h5>
+                        <h4><span>&#8358;</span>85,000<sup>$150</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#mixerModal" role="button">Please Select</a>
+                        <div class="modal fade" id="mixerModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_mixer">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://ng.jumia.is/cms/external/pet/KE824HA03LOFVNAFAMZ/f8c3ad1ecccbf9cf525dcc54a2ca1b72.jpg" alt="Food Processor">
+                      <div class="card-body">
+                        <h5 class="card-title">Food Processor</h5>
+                        <h4><span>&#8358;</span>66,500<sup>$117</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#foodModal" role="button">Please Select</a>
+                        <div class="modal fade" id="foodModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_food">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://homekits.com.ng/wp-content/uploads/2021/12/JUICER-1.jpg" alt="Ninja Electric Juicer">
+                      <div class="card-body">
+                        <h5 class="card-title">Ninja Electric Juicer</h5>
+                        <h4><span>&#8358;</span>155,000<sup>$272</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#juicerModal" role="button">Please Select</a>
+                        <div class="modal fade" id="juicerModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_juicer">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://images.yaoota.com/RfqjhLd44VlrbIZqCSVyolriSlw=/trim/yaootaweb-production-ng/media/crawledproductimages/3d9421ee2e0cea2761133771a8be5009051b72f7.jpg" alt="Travel Box Set">
+                      <div class="card-body">
+                        <h5 class="card-title">Travel Box Set</h5>
+                        <h4><span>&#8358;</span>190,000<sup>$334</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#boxModal" role="button">Please Select</a>
+                        <div class="modal fade" id="boxModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_box">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://d3aidp0yv5cwob.cloudfront.net/media/catalog/product/cache/1/thumbnail/600x/ebe36a7e1e40b700a8591953be1db30f/f/-/f-251-81105.778.jpg" alt="Vacuum cleaner">
+                      <div class="card-body">
+                        <h5 class="card-title">Vacuum Cleaner</h5>
+                        <h4><span>&#8358;</span>300,000<sup>$527</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#vacuumModal" role="button">Please Select</a>
+                        <div class="modal fade" id="vacuumModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_vacuum">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="https://slimages.macysassets.com/is/image/MCY/products/2/optimized/10119322_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1" alt="nutribullet">
+                      <div class="card-body">
+                        <h5 class="card-title">Nutribullet</h5>
+                        <h4><span>&#8358;</span>60,000<sup>$106</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#nutriModal" role="button">Please Select</a>
+                        <div class="modal fade" id="nutriModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_nutri">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-lg-3">
+                    <div class="card">
+                      <img class="card-img-top" src="img/oven.jpeg" alt="oven 600/600">
+                      <div class="card-body">
+                        <h5 class="card-title">Oven 600 by 600</h5>
+                        <h4><span>&#8358;</span>160,000<sup>$281</sup></h4>
+
+                        <a class="btn btn-dark gmodal" data-bs-toggle="modal" href="#oveModal" role="button">Please Select</a>
+                        <div class="modal fade" id="oveModal" aria-hidden="true" aria-labelledby="giftModalLabel" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="giftModalLabel">Please fill all fields</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <form action="send_mail.php" method="post">
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+                                      <label for="name">Name</label>
+                                  </div>
+                                  <div class="form-floating mb-3 mt-3">
+                                      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      <label for="email">Email or Phone Number</label>
+                                  </div>
+                                  <input type="hidden" name="subject" id="subject" value="Wedding Gift">
+                                  
+                                  <div class="form-floating" style="margin-top: 3%;">
+                                      <textarea class="form-control" id="comment" name="msg" placeholder="Message/Advice for the couple"></textarea>
+                                      <label for="comment">Message/Advice for the couple</label>
+                                  </div>
+                                  <div class="form-group" style="margin-top: 3%;">
+                                      <div>
+                                          <button type="submit" class="btn btn-dark" data-bs-dismiss="modal" name="send_ove">Submit</button>
+              
+                                      </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+
+
+
+                </div>
+            </div>
+        </div>
+		<div class="footer" style="margin-top: 10%">
+			<p class="fsign"><span>XO Magic</span></h2>
+			<p class="fdate">05.21.2022</p>
+			<span class="freg"><a href="gift_registry.php">Gift Registry</a></span>
+			<span class="created">Created by Denis</span>
+		</div>
+
+    </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
